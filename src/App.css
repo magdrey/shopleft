@@ -1,0 +1,49 @@
+/* Navbar */
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.navbar-nav a{
+  font-size: 18px;
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.logto{
+  cursor: pointer;
+}
+.cials{
+  margin-right: 2rem;
+}
+
+@media only screen and  (max-width:768px) {
+.product-nava{
+  flex-direction: column;
+}
+.foo {
+  flex-direction: column;
+}
+.cials{
+  margin-right: 1rem;
+}
+.fform{
+  width: 10rem;
+  height: 60;
+}
+
+
+
+
+}
